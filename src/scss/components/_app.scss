@@ -1,0 +1,13 @@
+.top-pane {
+    background-color: hsl(255, 6%, 25%);
+
+}
+
+.pane {
+    height: 50vh;
+    display: flex;
+
+    @include iphone {
+        flex-direction: column;
+    }
+}
